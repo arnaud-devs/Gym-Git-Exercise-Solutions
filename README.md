@@ -60,3 +60,29 @@
 166  git commit -m "feat: resolving conflit issues in service"
 167  git push
 ```
+## Bundle 3
+### Exercise 1
+```bash
+168  git checkout -b ft/team-page
+169  git add team.html
+170  git commit -m "feat: add team page with member information"
+171  git push --set-upstream origin ft/team-page
+172  git checkout -b ft/contact-page
+173  git checkout ft/team-page
+174  git log
+175  git checkout ft/contact-page
+176  git cherry-pick 79a8d7c35f6e74636739b4ef6b30fc2c3064d3f9
+177  git log
+178  git add contact.html
+179  git commit -m "feat: add contact page with basic HTML structure"
+180  git push --set-upstream origin ft/contact-page
+181  git checkout -b ft/fq-page
+182  git add faq.html
+183  git commit -m "feat: add FAQ page with basic HTML structure"
+184  git branch -M ft/faq-page
+185  git push --set-upstream origin ft/faq-page
+186  git revert 79a8d7c35f6e74636739b4ef6b30fc2c3064d3f9
+187  git status
+188  git add .
+189  git push
+```
