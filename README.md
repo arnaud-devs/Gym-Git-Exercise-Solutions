@@ -1,5 +1,7 @@
 # TheGym Exercise
+
 ## Bundle 1
+
 ### Exercise 1
 
 ```bash
@@ -44,3 +46,5 @@ Everything up-to-date
 
 user@Arnaud-PC MINGW64 ~/OneDrive/Documents/Gym-Git-Exercise-Solutions (main)
 ```
+
+### Exercise 2
