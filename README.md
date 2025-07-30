@@ -86,3 +86,17 @@
 188  git add .
 189  git push
 ```
+### Exercise 2
+```bash
+220  git checkout ft/faq-page
+221  git checkout -b ft/home-page-redesign
+222  git checkout main
+223  git add services.html
+224  git commit -m "fix: add additional note for further changes on services page"
+225  git push
+226  git checkout ft/home-page-redesign
+227  git rebase main
+228  git add home.html
+229  git commit -m "feat: update home page with redesign notes"
+230  git push --set-upstream origin ft/home-page-redesign
+```
