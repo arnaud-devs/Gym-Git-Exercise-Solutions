@@ -25,3 +25,13 @@
 133  git stash pop
 134  git reset --hard
 ```
+
+## Bundle 2
+
+### Exercise 1
+```bash
+141  git checkout -b ft/bundle-2
+142  git add services.html
+143  git commit -m "Add services.html page"
+144  git push --set-upstream origin ft/bundle-2
+```
