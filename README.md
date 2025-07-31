@@ -150,3 +150,25 @@
 265  git commit -m "Welcome to our place to Welcome to our restaurant"
 266  git push
 ```
+## Bundle 6
+## Exercise 1
+```bash
+267  git checkout -b new-features
+268  git add menu.html
+269  git commit -m "Creating new menu page"
+270  git push
+271  git push --set-upstream origin new-features
+```
+### Exercise 2
+```bash
+272  git checkout -b ft/bug-fix
+273  git add index-4.html
+274  git commit -m "feat: updated the email"
+275  git push --set-upstream origin ft/bug-fix
+```
+### Exercise 3
+```bash
+276  git add index-4.html
+277  git commit -m "feat: removed typo and changed telephone number"
+278  git push --set-upstream origin ft/hot-fix
+```
