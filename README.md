@@ -115,3 +115,17 @@
 240  git push origin
 241  git push git-copy
 ```
+### Exercise 2
+```bash
+242  git checkout -b ft/footer
+243  git add home.html
+244  git commit -m "Adding footer to  home page"
+245  git add about.html
+246  git commit -m "feat: adding footer to about us page"
+247  git push --set-upstream origin ft/footer
+248  git checkout main
+249  git checkout -b ft/squashing
+250  git merge --squash ft/footer
+251  git commit -m "footer changes squashing"
+252  git push --set-upstream origin ft/squashing
+```
