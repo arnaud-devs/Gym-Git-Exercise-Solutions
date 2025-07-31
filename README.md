@@ -100,3 +100,18 @@
 229  git commit -m "feat: update home page with redesign notes"
 230  git push --set-upstream origin ft/home-page-redesign
 ```
+## Bundle 4
+### Exercise 1
+```bash
+231  git checkout main
+232  git remote -v
+233  git remote rm upstream
+234  git remote -v
+235  git remote add git-copy https://github.com/arnaud-devs/git-bundle4-exercise1
+236  git add home.html
+237  git commit -m "feat: adding new paragraph in home"
+238  git branch
+239  git remote show git-copy
+240  git push origin
+241  git push git-copy
+```
