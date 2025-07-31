@@ -129,3 +129,24 @@
 251  git commit -m "footer changes squashing"
 252  git push --set-upstream origin ft/squashing
 ```
+## Bundle 5
+### Exercise 1
+```bash
+253  git add index.html
+254  git commit -m "rename home to index"
+255  git push
+```
+### Exercise 2
+```bash
+256  git clone https://github.com/arnaud-devs/git-cafe-exercise
+257  cd git-cafe-exercise
+258  git branch
+259  git remote -v
+260  git status
+261  git add index.html
+262  git commit -m "Modifying telephone number and address"
+263  git push
+264  git add index.html
+265  git commit -m "Welcome to our place to Welcome to our restaurant"
+266  git push
+```
